@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+
+#contentBox{
+	margin-top: 2%;
+	
+}
+
+body {
+background-color:black;
+margin: 0;
+color:white;
+font-family:sans-serif;
+}
+	
+
+#line{
+padding: 15px;
+
+}
+
+#bg{
+float: left;
+width: 40%;
+}
+
+#tcolor{
+float: right;
+width: 60%;
+}
+
+#row:after{
+content: "";
+display: table;
+clear: both;
+}
+button {
+	background-color: White
+  border: none;
+  color: Black;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+button:hover {
+	background-color: red;
+	color: white;
+}
+select{
+	background-color:white;
+	color:black	;
+	width: 200px;
+	border-radius: 14px;
+	margin: 4px 2px;
+	padding: 12px 24px;
+	font-size: 12px;
+}
+label{
+color: white;
+font-weight: bold;
+}
+
+.description{
+font-size: 44px;
+width: 50%;
+margin: 100px 10px;
+
+float: Right;
+}
+
+#bigimg{
+padding-bottom: 20px;
+float: Left;
+margin: 50px 10px;
+}
+.box1{
+	float: Right;
+	display: flex;
+	padding:30px;
+	margin: 4px 8px;
+	transition: 0.1s;
+}
+.box2{
+	float: Right;
+	display: flex;
+	padding:30px;
+	margin: 4px 220px;
+	transition: 0.1s;
+	
+	
+}
+.box3{
+	float: Left;
+	display: flex;
+	padding:30px;
+	margin: 4px 2px;
+	transition: 0.1s;
+}
+.allimgs{
+	margin: 50px auto;
+	
+}
+
+.box1:hover{
+	-ms-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5); 
+}
+.box2:hover{
+	-ms-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5); 
+}
+.box3:hover{
+	-ms-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5); 
+}
+.box4 {
+	float: Right;
+	position:relative;  
+	
+	left:400px;
+	display: flex;
+	padding:30px;
+	margin: 0px 50px;
+	transition: 0.1s;
+}
+.box5 {
+	float: left;
+	position:relative;  
+	
+	left:270px;
+	padding:30px;
+	margin:0px 50px;
+	transition: 0.1s;
+}
+.box4:hover{
+	-ms-transform: scale(1.5); /* IE 9 */
+	-webkit-transform: scale(1.5); /* Safari 3-8 */
+	transform: scale(1.5); 
+}
+.box5:hover{
+	-ms-transform: scale(1.5); /* IE 9 */
+	-webkit-transform: scale(1.5); /* Safari 3-8 */
+	transform: scale(1.5); 
+}
+.bottom{
+	float:left;
+
+}
+.top {
+	list-style-type: none;
+	margin: 10px 40px;
+	padding: 0px;
+	overflow: hidden;
+	text-align: right;
+	
+	width: 100%;
+	margin-top: 20px;
+	font-family: "Poppins", sans-serif;
+	float:right;
+}

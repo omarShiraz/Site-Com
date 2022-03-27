@@ -1,0 +1,96 @@
+
+body{
+    background-color: Black;
+	background-image:url("images4/maxresdefault.jpg");
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+    font-family:sans-serif;
+}
+h1{
+    text-align: center;
+	color: white;
+	padding-bottom:60px;
+	font-size:60px;
+    padding-top: 30px;
+}
+h2{
+    text-decoration: solid;
+    padding-left: 50px ;
+}
+svg{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+	
+}
+
+.pg:hover .bar {
+	fill: red;
+	opacity: 1;
+	
+}
+.hp:hover .bar {
+	fill: blue;
+	opacity: 1;
+	
+}
+
+.Products:hover .bar {
+	fill: cyan;
+	opacity: 1;
+	
+}
+.Quiz:hover .bar {
+	fill: cyan;
+	opacity: 1;
+	
+}
+.Queries:hover .bar {
+	fill: cyan;
+	opacity: 1;
+	
+}
+.Editors:hover .bar {
+	fill: cyan;
+	opacity: 1;
+	
+}
+.Characters:hover .bar {
+	fill: cyan;
+	opacity: 1;
+	
+}
+.Site:hover .bar {
+	fill: pink;
+	opacity: 1;
+	
+}
+
+
+text{
+    font-size: 28px;
+    fill: black;
+}
+rect{
+    fill: White;
+    stroke: blue;
+    stroke-width: 0;
+
+}
+line {
+
+    stroke: White;
+    stroke-width: 2;
+	
+}
+a{
+    color: white;
+    float: right;
+    padding-bottom: 3px;
+    margin-bottom: 5px;
+    margin-right: 4px;
+}
+.dev{
+color:black;
+}

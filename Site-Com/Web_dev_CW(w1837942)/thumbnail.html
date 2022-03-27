@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	
+	<title>Characters</title>
+	<link rel="stylesheet" href="thumbnail.css">
+	<link rel="stylesheet" href="nevbar.css">
+	
+	<link rel="stylesheet" href="footer.css">
+	
+    
+</head>
+<body>
+	<div class="navbardiv">
+		<img class="logo_" src="images4/sitecom_logo.png" alt="sitecom_logo">
+		<ul class="navbar" id="navbar">
+			<li><a href="Main_page.html">Home</a></li>
+			<li><a href="buy_product.html">Products</a></li>
+			<li><a class="active">Characters</a></li>
+			<li><a href="Quiz.html">Quiz</a></li>
+			<li><a href="sitemap.html">Site Map</a></li>
+			<li><a href="Editors.html">Editors</a></li>
+			<li><a href="Queries.html">Queries</a></li>
+		</ul>
+	</div>
+	
+	<div id="contentBox">
+        <div id="line">
+            <div id="bg">
+               <select id ="select">
+		<option value ="" selected disabled hidden>select background colour</option>
+		<option>Red</option>
+		<option>Blue</option>
+		<option>Yellow</option>
+		<option>Black</option>
+	</select>
+	<button onclick="backgroundcolourpicker()">Change the background color</button>
+	
+            </div>
+            <div id="tcolor">
+                <select id ="selectTxt">
+		<option value ="" selected disabled hidden> select text colour </option>
+		<option>Red</option>
+		<option>Blue</option>
+		<option>Yellow</option>
+		<option>White</option>
+	</select>
+	<button class="txtbtn" onclick="textcolourpicker()">Change the text color</button>
+            </div>
+        </div>
+		</div>
+		<div class = "allimgs">  
+		
+<div class = "box1">      
+<img  src="images4/image.jpg" alt="img1" id="img1" width="290" height="250" >
+</div>
+
+<div class = "box2"> 
+<img src="images4/image2.jpg" alt="img1" id="img2" width="290" height="250" >
+</div>
+<div class = "box3"> 
+<img src="images4/image3.jpg" alt="img1" id="img3" width="290" height="250" >
+</div>
+<div class = "big">
+<img src="images4/bigpicture.jpg" alt="Big picture" id="bigimg" width="700" height="450" > 
+</div>
+<div class = "description">
+<span id = "description"></span>
+</div>
+<div class="bottom">
+<div class = "box4">
+<img src="images4/image4.jpg" alt="img1" id="img4" width="290" height="250">
+</div>
+
+<div class = "box5"> 
+<img src="images4/image5.jpg" alt="" id="img5" width="290" height="250">
+</div>
+</div>
+</div>
+
+</div>
+
+<a class="top" href="#navbar"><img id="backtotop" src="images4/arrow.png" width="70" height="45" alt="back to top"></a>		
+
+<div style="clear: both;"></div>
+<footer class="siteFooter">
+
+        <div class="footerRow">
+            <div class="footerCol">
+                <h3>About Us</h3>
+                <p class="aboutUs">Visit our website to purchase comic series.</p>
+            </div>
+            <div class="footerCol">
+                <h3>Reference Links</h3>
+                <dl>
+                    <dt style="float: left;"><a href="Main_page.html">Home</a></dt><br>
+                    <dt style="float: left;"><a href="buy_product.html">Buy Items</a></dt><br>
+                    <dt style="float: left;"><a href="thumbnail.html">Images</a></dt><br>
+                    <dt style="float: left;"><a href="Editors.html">Editors</a></dt><br>
+                    <dt style="float: left;"><a href="sitemap.html">Site Map</a></dt><br>
+                    <dt style="float: left;"><a href="Queries.html">Give your Feedback</a></dt><br>
+                    <dt style="float: left;"><a href="Quiz.html">Quiz</a></dt>
+                </dl>
+                
+            </div>
+            <div class="footerCol">
+                <h3>Contact Us</h3>
+
+                <p>Student 4 : Omar Shiraz</p>
+            </div>
+            <a class="top" href="developer_Omar.html" target="_blank">Page Developer</a>
+            </div>
+            
+        </div>
+    </footer>	
+		 
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	<script>
+	document.getElementById("img1").addEventListener("click",function(){
+	document.getElementById("bigimg").src="images4/image.jpg";
+	document.getElementById("description").innerHTML="Hey, How you doing. Joey doesn't share food!";
+});
+document.getElementById("img2").addEventListener("click",function(){
+	document.getElementById("bigimg").src="images4/image2.jpg";
+	document.getElementById("description").innerHTML="It’s gonna be legen — wait for it … and I hope you’re not lactose-intolerant ‘cause the second half of that word is — dary!";
+});
+document.getElementById("img3").addEventListener("click",function(){
+	document.getElementById("bigimg").src="images4/image3.jpg";
+	document.getElementById("description").innerHTML=" Now, I need you to be careful and efficient. And remember: If I am harsh with you, it's only because you're doing it wrong.";
+});
+document.getElementById("img4").addEventListener("click",function(){
+	document.getElementById("bigimg").src="images4/image4.jpg";
+	document.getElementById("description").innerHTML="The Doctor Said All My Bleeding Was Internal. That's Where The Blood's Supposed To Be.";
+});
+document.getElementById("img5").addEventListener("click",function(){
+	document.getElementById("bigimg").src="images4/image5.jpg";
+	document.getElementById("description").innerHTML="Hi, I’m Chandler. I make jokes when I’m uncomfortable";
+});
+	
+	
+	function textcolourpicker()
+	{
+		var x=document.getElementById("selectTxt");
+		var txtcolor = x.options[x.selectedIndex].value;
+		document.body.style.color=txtcolor;
+	}		
+		
+		function backgroundcolourpicker()
+	{
+		var y=document.getElementById("select");
+		var bgcolor = y.options[y.selectedIndex].value;
+		document.body.style.backgroundColor=bgcolor;  
+	}
+	</script>
